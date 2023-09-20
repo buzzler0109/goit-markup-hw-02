@@ -11,10 +11,10 @@ ol {
 a {text-decoration: none;}
 
 .web {color: #4D5AE5;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;}
 
@@ -26,7 +26,7 @@ a {text-decoration: none;}
     letter-spacing: 0.54px;
     text-transform: uppercase;}
 
-.studio1 {
+.studio-footer {
     color: #F4F4FD;
     font-family: Raleway;
     font-size: 18px;
@@ -42,7 +42,8 @@ a {text-decoration: none;}
     line-height: 24px;
     letter-spacing: 0.32px;}
 
-.nav-list-item:hover {color: #404bbf}
+.nav-list-item:hover,
+.nav-list-item:focus {color: #404bbf}
 
 .contacts {font-style: normal;}
 
