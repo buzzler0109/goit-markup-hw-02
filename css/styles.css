@@ -1,6 +1,6 @@
-body {font-family: "roboto", sans-serif;
+body {font-family: "Roboto", sans-serif;
     background-color: #FFF;
-    color: #2E2F42;
+    color: #434455;
 }
 
 ul,
@@ -36,33 +36,39 @@ a {text-decoration: none;}
     text-transform: uppercase;
 }
 
-.nav-list a {color: #2E2F42;
+.nav-list-item {color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;}
 
-.contacts a {color: #434455;
+.nav-list-item:hover {color: #404bbf}
+
+.contacts {font-style: normal;}
+
+.contacts-item {color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;}
 
-.contacts a:active {color: #404BBF;}
+.contacts-item:hover,
+.contacts-item:focus
+ {color: #404BBF;}
 
-.nav-list a:active {
-    color: #404BBF;}
+.main-section {background-color: #2E2F42;}
 
 .main-title {color: #FFF;
     background-color: #2E2F42;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 1.12px;}
 
 .order-button {color: #FFF;
     background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -73,7 +79,7 @@ cursor: pointer;}
 .order-button:focus {background-color: #404BBF;}
 
 
-.about-us h3 {color: #2E2F42;
+.about-us {color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
@@ -88,12 +94,15 @@ cursor: pointer;}
 .our-team-section {background-color: #F4F4FD;}
 
 .our-team {color: #2E2F42;
+    background-color: #FFF;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;}
+
+.our-team-list {background-color: #FFFFFF;}
 
 .our-team-names {color: #2E2F42;
     background-color: #FFF;
@@ -115,7 +124,7 @@ cursor: pointer;}
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;}
 
@@ -131,7 +140,9 @@ cursor: pointer;}
     line-height: 24px;
     letter-spacing: 0.32px;}
 
-footer {color: #F4F4FD;
+.footer-section {background-color: #2E2F42;}
+
+.footer-text {color: #F4F4FD;
     background-color: #2E2F42;
     font-size: 16px;
     font-weight: 400;
